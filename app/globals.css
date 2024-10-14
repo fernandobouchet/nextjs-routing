@@ -20,8 +20,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .link {
+    @apply bg-teal-500 text-teal-950 px-2 py-1 rounded-lg w-fit;
+  }
+  .title {
+    @apply text-xl font-bold;
   }
 }
